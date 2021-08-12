@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040BB57026C40A8000C4D862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB56F26C40A8000C4D862 /* AppDelegate.swift */; };
+		040BB57426C40A8000C4D862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB57326C40A8000C4D862 /* ViewController.swift */; };
+		040BB57726C40A8000C4D862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040BB57526C40A8000C4D862 /* Main.storyboard */; };
+		040BB57926C40A8200C4D862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040BB57826C40A8200C4D862 /* Assets.xcassets */; };
+		040BB57C26C40A8200C4D862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040BB57A26C40A8200C4D862 /* LaunchScreen.storyboard */; };
+		040BB58726C40A8300C4D862 /* Vikash_taskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB58626C40A8300C4D862 /* Vikash_taskTests.swift */; };
+		040BB59226C40A8300C4D862 /* Vikash_taskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB59126C40A8300C4D862 /* Vikash_taskUITests.swift */; };
+		040BB5A626C40ABE00C4D862 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB5A526C40ABE00C4D862 /* RegisterViewController.swift */; };
+		040BB5AB26C40B1200C4D862 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB5AA26C40B1200C4D862 /* HomeViewController.swift */; };
+		040BB5B326C40B4400C4D862 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB5B226C40B4400C4D862 /* DetailsViewController.swift */; };
+		040BB5BE26C40B5B00C4D862 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB5BD26C40B5B00C4D862 /* AddNoteViewController.swift */; };
+		040BB5C626C40ECB00C4D862 /* AppUtilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB5C526C40ECB00C4D862 /* AppUtilites.swift */; };
+		0476EA4926C4C7D60031C5A4 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476EA4826C4C7D60031C5A4 /* HomeTableViewCell.swift */; };
+		E1A938E526C4D33500392487 /* Vikash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1A938E326C4D33500392487 /* Vikash.xcdatamodeld */; };
+		E1A938EA26C4EB4100392487 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A938E926C4EB4100392487 /* PhotoCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040BB58326C40A8300C4D862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040BB56426C40A8000C4D862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040BB56B26C40A8000C4D862;
+			remoteInfo = "Vikash task";
+		};
+		040BB58E26C40A8300C4D862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040BB56426C40A8000C4D862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040BB56B26C40A8000C4D862;
+			remoteInfo = "Vikash task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040BB56C26C40A8000C4D862 /* Vikash task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vikash task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040BB56F26C40A8000C4D862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		040BB57326C40A8000C4D862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		040BB57626C40A8000C4D862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040BB57826C40A8200C4D862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040BB57B26C40A8200C4D862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040BB57D26C40A8200C4D862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040BB58226C40A8300C4D862 /* Vikash taskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vikash taskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040BB58626C40A8300C4D862 /* Vikash_taskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vikash_taskTests.swift; sourceTree = "<group>"; };
+		040BB58826C40A8300C4D862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040BB58D26C40A8300C4D862 /* Vikash taskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vikash taskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040BB59126C40A8300C4D862 /* Vikash_taskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vikash_taskUITests.swift; sourceTree = "<group>"; };
+		040BB59326C40A8300C4D862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040BB5A526C40ABE00C4D862 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		040BB5AA26C40B1200C4D862 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		040BB5B226C40B4400C4D862 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		040BB5BD26C40B5B00C4D862 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		040BB5C526C40ECB00C4D862 /* AppUtilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtilites.swift; sourceTree = "<group>"; };
+		0476EA4826C4C7D60031C5A4 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		E1A938E426C4D33500392487 /* Vikash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vikash.xcdatamodel; sourceTree = "<group>"; };
+		E1A938E926C4EB4100392487 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040BB56926C40A8000C4D862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040BB57F26C40A8300C4D862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040BB58A26C40A8300C4D862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040BB56326C40A8000C4D862 = {
+			isa = PBXGroup;
+			children = (
+				040BB56E26C40A8000C4D862 /* Vikash task */,
+				040BB58526C40A8300C4D862 /* Vikash taskTests */,
+				040BB59026C40A8300C4D862 /* Vikash taskUITests */,
+				040BB56D26C40A8000C4D862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040BB56D26C40A8000C4D862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040BB56C26C40A8000C4D862 /* Vikash task.app */,
+				040BB58226C40A8300C4D862 /* Vikash taskTests.xctest */,
+				040BB58D26C40A8300C4D862 /* Vikash taskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040BB56E26C40A8000C4D862 /* Vikash task */ = {
+			isa = PBXGroup;
+			children = (
+				040BB56F26C40A8000C4D862 /* AppDelegate.swift */,
+				040BB57326C40A8000C4D862 /* ViewController.swift */,
+				040BB5A526C40ABE00C4D862 /* RegisterViewController.swift */,
+				040BB5AA26C40B1200C4D862 /* HomeViewController.swift */,
+				040BB5B226C40B4400C4D862 /* DetailsViewController.swift */,
+				040BB5BD26C40B5B00C4D862 /* AddNoteViewController.swift */,
+				0476EA4826C4C7D60031C5A4 /* HomeTableViewCell.swift */,
+				E1A938E926C4EB4100392487 /* PhotoCollectionViewCell.swift */,
+				040BB5C526C40ECB00C4D862 /* AppUtilites.swift */,
+				040BB57526C40A8000C4D862 /* Main.storyboard */,
+				040BB57826C40A8200C4D862 /* Assets.xcassets */,
+				040BB57A26C40A8200C4D862 /* LaunchScreen.storyboard */,
+				040BB57D26C40A8200C4D862 /* Info.plist */,
+				E1A938E326C4D33500392487 /* Vikash.xcdatamodeld */,
+			);
+			path = "Vikash task";
+			sourceTree = "<group>";
+		};
+		040BB58526C40A8300C4D862 /* Vikash taskTests */ = {
+			isa = PBXGroup;
+			children = (
+				040BB58626C40A8300C4D862 /* Vikash_taskTests.swift */,
+				040BB58826C40A8300C4D862 /* Info.plist */,
+			);
+			path = "Vikash taskTests";
+			sourceTree = "<group>";
+		};
+		040BB59026C40A8300C4D862 /* Vikash taskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040BB59126C40A8300C4D862 /* Vikash_taskUITests.swift */,
+				040BB59326C40A8300C4D862 /* Info.plist */,
+			);
+			path = "Vikash taskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040BB56B26C40A8000C4D862 /* Vikash task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040BB59626C40A8300C4D862 /* Build configuration list for PBXNativeTarget "Vikash task" */;
+			buildPhases = (
+				040BB56826C40A8000C4D862 /* Sources */,
+				040BB56926C40A8000C4D862 /* Frameworks */,
+				040BB56A26C40A8000C4D862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vikash task";
+			productName = "Vikash task";
+			productReference = 040BB56C26C40A8000C4D862 /* Vikash task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040BB58126C40A8300C4D862 /* Vikash taskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040BB59926C40A8300C4D862 /* Build configuration list for PBXNativeTarget "Vikash taskTests" */;
+			buildPhases = (
+				040BB57E26C40A8300C4D862 /* Sources */,
+				040BB57F26C40A8300C4D862 /* Frameworks */,
+				040BB58026C40A8300C4D862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040BB58426C40A8300C4D862 /* PBXTargetDependency */,
+			);
+			name = "Vikash taskTests";
+			productName = "Vikash taskTests";
+			productReference = 040BB58226C40A8300C4D862 /* Vikash taskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040BB58C26C40A8300C4D862 /* Vikash taskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040BB59C26C40A8300C4D862 /* Build configuration list for PBXNativeTarget "Vikash taskUITests" */;
+			buildPhases = (
+				040BB58926C40A8300C4D862 /* Sources */,
+				040BB58A26C40A8300C4D862 /* Frameworks */,
+				040BB58B26C40A8300C4D862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040BB58F26C40A8300C4D862 /* PBXTargetDependency */,
+			);
+			name = "Vikash taskUITests";
+			productName = "Vikash taskUITests";
+			productReference = 040BB58D26C40A8300C4D862 /* Vikash taskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040BB56426C40A8000C4D862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					040BB56B26C40A8000C4D862 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					040BB58126C40A8300C4D862 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 040BB56B26C40A8000C4D862;
+					};
+					040BB58C26C40A8300C4D862 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 040BB56B26C40A8000C4D862;
+					};
+				};
+			};
+			buildConfigurationList = 040BB56726C40A8000C4D862 /* Build configuration list for PBXProject "Vikash task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040BB56326C40A8000C4D862;
+			productRefGroup = 040BB56D26C40A8000C4D862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040BB56B26C40A8000C4D862 /* Vikash task */,
+				040BB58126C40A8300C4D862 /* Vikash taskTests */,
+				040BB58C26C40A8300C4D862 /* Vikash taskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040BB56A26C40A8000C4D862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040BB57C26C40A8200C4D862 /* LaunchScreen.storyboard in Resources */,
+				040BB57926C40A8200C4D862 /* Assets.xcassets in Resources */,
+				040BB57726C40A8000C4D862 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040BB58026C40A8300C4D862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040BB58B26C40A8300C4D862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040BB56826C40A8000C4D862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040BB5A626C40ABE00C4D862 /* RegisterViewController.swift in Sources */,
+				E1A938EA26C4EB4100392487 /* PhotoCollectionViewCell.swift in Sources */,
+				040BB57426C40A8000C4D862 /* ViewController.swift in Sources */,
+				040BB5C626C40ECB00C4D862 /* AppUtilites.swift in Sources */,
+				040BB5BE26C40B5B00C4D862 /* AddNoteViewController.swift in Sources */,
+				040BB57026C40A8000C4D862 /* AppDelegate.swift in Sources */,
+				040BB5AB26C40B1200C4D862 /* HomeViewController.swift in Sources */,
+				0476EA4926C4C7D60031C5A4 /* HomeTableViewCell.swift in Sources */,
+				E1A938E526C4D33500392487 /* Vikash.xcdatamodeld in Sources */,
+				040BB5B326C40B4400C4D862 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040BB57E26C40A8300C4D862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040BB58726C40A8300C4D862 /* Vikash_taskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040BB58926C40A8300C4D862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040BB59226C40A8300C4D862 /* Vikash_taskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040BB58426C40A8300C4D862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040BB56B26C40A8000C4D862 /* Vikash task */;
+			targetProxy = 040BB58326C40A8300C4D862 /* PBXContainerItemProxy */;
+		};
+		040BB58F26C40A8300C4D862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040BB56B26C40A8000C4D862 /* Vikash task */;
+			targetProxy = 040BB58E26C40A8300C4D862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040BB57526C40A8000C4D862 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040BB57626C40A8000C4D862 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040BB57A26C40A8200C4D862 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040BB57B26C40A8200C4D862 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040BB59426C40A8300C4D862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		040BB59526C40A8300C4D862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040BB59726C40A8300C4D862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23AR64C8B9;
+				INFOPLIST_FILE = "Vikash task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vikashtask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040BB59826C40A8300C4D862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23AR64C8B9;
+				INFOPLIST_FILE = "Vikash task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vikashtask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		040BB59A26C40A8300C4D862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vikash taskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabani-Solution.Vikash-taskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vikash task.app/Vikash task";
+			};
+			name = Debug;
+		};
+		040BB59B26C40A8300C4D862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vikash taskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabani-Solution.Vikash-taskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vikash task.app/Vikash task";
+			};
+			name = Release;
+		};
+		040BB59D26C40A8300C4D862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vikash taskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabani-Solution.Vikash-taskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vikash task";
+			};
+			name = Debug;
+		};
+		040BB59E26C40A8300C4D862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vikash taskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabani-Solution.Vikash-taskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vikash task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040BB56726C40A8000C4D862 /* Build configuration list for PBXProject "Vikash task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040BB59426C40A8300C4D862 /* Debug */,
+				040BB59526C40A8300C4D862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040BB59626C40A8300C4D862 /* Build configuration list for PBXNativeTarget "Vikash task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040BB59726C40A8300C4D862 /* Debug */,
+				040BB59826C40A8300C4D862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040BB59926C40A8300C4D862 /* Build configuration list for PBXNativeTarget "Vikash taskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040BB59A26C40A8300C4D862 /* Debug */,
+				040BB59B26C40A8300C4D862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040BB59C26C40A8300C4D862 /* Build configuration list for PBXNativeTarget "Vikash taskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040BB59D26C40A8300C4D862 /* Debug */,
+				040BB59E26C40A8300C4D862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1A938E326C4D33500392487 /* Vikash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1A938E426C4D33500392487 /* Vikash.xcdatamodel */,
+			);
+			currentVersion = E1A938E426C4D33500392487 /* Vikash.xcdatamodel */;
+			path = Vikash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 040BB56426C40A8000C4D862 /* Project object */;
+}
